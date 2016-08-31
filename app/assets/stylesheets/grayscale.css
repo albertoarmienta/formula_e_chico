@@ -117,6 +117,22 @@ a:focus {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
+
+.intro {
+  display: table;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  background: url('/assets/formula_logo_temp.png') no-repeat center center scroll;
+  /*opacity: 0.2;*/
+  background-color: #142933;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  background-size: auto 100%;
+  -o-background-size: auto 100%;
+}
+/*
 .intro {
   display: table;
   width: 100%;
@@ -124,13 +140,17 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url('/assets/intro-bg.jpg') no-repeat bottom center scroll;
+  background: url('/assets/formula_logo.png') no-repeat bottom center scroll;
+  /*opacity: 0.2;*/
+  /*
   background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
+*/
+
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
@@ -154,13 +174,12 @@ a:focus {
   }
 }
 .btn-circle {
+  font-family: "Glyphicons Halflings";
   width: 70px;
   height: 70px;
   margin-top: 15px;
-  padding: 7px 16px;
-  border: 2px solid white;
   border-radius: 100% !important;
-  font-size: 40px;
+  font-size: 70px;
   color: white;
   background: transparent;
   -webkit-transition: background 0.3s ease-in-out;
@@ -170,8 +189,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
   outline: none;
-  color: white;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 1);
 }
 .btn-circle i.animated {
   -webkit-transition-property: -webkit-transform;
@@ -222,14 +240,15 @@ a:focus {
 }
 .download-section {
   width: 100%;
+  height: 100%;
   padding: 50px 0;
   color: white;
-  background: url('/assets/downloads-bg.jpg') no-repeat center center scroll;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  background: url('/assets/formula_banner.png') no-repeat center center scroll;
+  background-color: #142933;
+  -webkit-background-size: 65% 100%;
+  -moz-background-size: 65% 100%;
+  background-size: 65% 100%;
+  -o-background-size: 65% 100%;
 }
 #map {
   width: 100%;
@@ -238,7 +257,7 @@ a:focus {
 }
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 250px;
+    padding-top: 100px;
   }
   .download-section {
     padding: 100px 0;
@@ -311,4 +330,44 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
+
+.facebook-slide {
+  background-image: url('/assets/facebook_hover.png');
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+  margin: 10px;
+  float: left;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.facebook-slide:hover,
+.facebook-slide:focus {
+  background-position: 0px -48px;
+  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}
+
+.instagram-slide {
+  background-image: url('/assets/instagram_hover.png');
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+  margin: 10px;
+  float: left;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.instagram-slide:hover,
+.instagram-slide:focus {
+  background-position: 0px -48px;
+  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
 }

@@ -1,3 +1,6 @@
+## Mac os stuff
+*\.DS_Store
+## Start
 *.rbc
 capybara-*.html
 .rspec
