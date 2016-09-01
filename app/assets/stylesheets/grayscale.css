@@ -22,7 +22,7 @@ h5,
 h6 {
   margin: 0 0 35px;
   text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Formula-Font", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -56,8 +56,11 @@ a:focus {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Chico-Font", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #132A34;
+  /*
   background-color: black;
+  */
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -113,7 +116,7 @@ a:focus {
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    background: black;
+    background: #132A34;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
@@ -123,14 +126,26 @@ a:focus {
   width: 100%;
   height: 100%;
   text-align: center;
-  color: white;
+  color: #FFAE04;
+  /*
   background: url('/assets/formula_logo_temp.png') no-repeat center center scroll;
-  /*opacity: 0.2;*/
   background-color: #142933;
+  */
+  background-color: #C0C0C0;
   -webkit-background-size: auto 100%;
   -moz-background-size: auto 100%;
   background-size: auto 100%;
   -o-background-size: auto 100%;
+}
+
+.custom-navbar-img {
+  float: left;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;
+  padding-top: 5px;
+  padding-right: 5px;
+
 }
 /*
 .intro {
